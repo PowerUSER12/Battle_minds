@@ -1,0 +1,82 @@
+/*************************tag_selectors*******************************/
+a{
+    text-decoration: none;
+}
+body {
+  margin: 0;
+  background-color: white;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+/********************************class_selectors****************************/
+.logoImg {
+  height: 5rem;
+  width: 5rem;
+}
+.logoHead {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+
+  padding: 10px;
+  width: auto;
+}
+.logoHead h1 {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: darkred;
+  font-weight: bolder;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: #eaf6f6;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navItem {
+  flex: auto;
+  width: 200px;
+}
+.navItem a {
+  text-decoration: none;
+  color:darkred;
+  font-size: 200%;
+}
+.navItem a:hover {
+  color: darkcyan;
+}
+.btn {
+  background: darkred;
+  background-image: -webkit-linear-gradient(top, #37d480, #2b76b8);
+  background-image: -moz-linear-gradient(top, #37d480, #2b76b8);
+  background-image: -ms-linear-gradient(top, #37d480, #2b76b8);
+  background-image: -o-linear-gradient(top, #37d480, #2b76b8);
+  background-image: linear-gradient(to bottom, #37d480, #2b76b8);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: darkcyan;
+  text-decoration: none;
+}
