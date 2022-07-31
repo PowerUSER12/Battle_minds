@@ -16,6 +16,11 @@ h1 {
 }
 
 /********************************class_selectors**************************/
+.hero {
+  background-image: url(images/polina-kuzovkova-lpWypNUavIk-unsplash.jpg);
+  padding-bottom: 200px;
+  
+}
 .heroContainer {
   display: flex;
   padding: 50px;
@@ -24,7 +29,7 @@ h1 {
   margin-bottom: 20px;
   margin-left: 15%;
   margin-right: 15%;
-  background-color:rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   border-radius: 1.5em;
 }
@@ -41,6 +46,7 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  
 }
 .herobox p {
   font-weight: 400;
@@ -67,35 +73,39 @@ h1 {
   padding: 5px;
   text-decoration: none;
 }
-.heroBtn:hover{
-  color:darkcyan;
-} 
+.heroBtn:hover {
+  color: darkcyan;
+}
 
 .logoImg {
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
 }
 .logoHead {
   display: flex;
   margin-left: 10px;
   margin-top: 10px;
-
+  margin-bottom: 0;
   padding: 10px;
   width: auto;
+  align-items: center;
 }
 .logoHead h1 {
   display: inline-block;
   margin-top: 20px;
   margin-left: 10px;
   color: darkred;
-  font-weight: bolder;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0.1rem;
 }
 .Header {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 5px;
   align-items: center;
   background-color: #eaf6f6;
+  margin-bottom: 100px;
 }
 
 .navBar {
@@ -110,7 +120,7 @@ h1 {
 .navItem a {
   text-decoration: none;
   color: darkred;
-  font-size: 200%;
+  font-size: 25px;
 }
 .navItem a:hover {
   color: darkcyan;
@@ -127,7 +137,7 @@ h1 {
   border-radius: 16px;
   font-family: Courier New;
   color: #ffffff;
-  font-size: 35px;
+  font-size: 25px;
   padding: 9px 20px 10px 20px;
   text-decoration: none;
 }
