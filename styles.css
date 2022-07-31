@@ -149,22 +149,17 @@ h1 {
   padding: 50px;
   display: flex;
   flex-direction: column;
-  color:darkred;
+  color: darkred;
   background-color: #eaf6f6;
-  
 }
-.secondText{
+.secondText {
   align-self: center;
-
 }
-
 
 .secondText h2 {
   font-size: 36px;
   font-weight: bolder;
-  margin:0;
-  
-  
+  margin: 0;
 }
 .secondImgs img {
   height: 300px;
@@ -183,49 +178,91 @@ h1 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.imgOne{
+.imgOne {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 28px;
   letter-spacing: 0.1;
-  font-weight:bold;
+  font-weight: bold;
 }
-.imgTwo{
+.imgTwo {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 28px;
   letter-spacing: 0.1;
-  font-weight:bold;
+  font-weight: bold;
 }
-.imgThree{
+.imgThree {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 28px;
   letter-spacing: 0.1;
-  font-weight:bold;
+  font-weight: bold;
 }
-.imgFour{
+.imgFour {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 28px;
   letter-spacing: 0.1;
-  font-weight:bold;
+  font-weight: bold;
 }
-.thirdContainer{
-  padding:100px;
-  
+.thirdContainer {
+  padding: 100px;
+
   display: flex;
   align-items: center;
   flex-direction: column;
   font-size: 36px;
   font-style: italic;
-  background-color:rgba(1,1,3,0.8);
-  color:white;
+  background-color: rgba(1, 1, 3, 0.8);
+  color: white;
   background-image: url(images/polina-kuzovkova-lpWypNUavIk-unsplash.jpg);
 }
+.callAction {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 50%;
+}
+.callAction p {
+  font-size: 22px;
+  margin: 0;
+  color: white;
+}
+.first {
+  font-weight: bold;
+}
+.fourthContainer {
+  background-color: #eaf6f6;
+  display: flex;
+  justify-content: center;
 
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.callBtn{
+  background: darkred;
+  background-image: -webkit-linear-gradient(top, #37d480, #2b76b8);
+  background-image: -moz-linear-gradient(top, #37d480, #2b76b8);
+  background-image: -ms-linear-gradient(top, #37d480, #2b76b8);
+  background-image: -o-linear-gradient(top, #37d480, #2b76b8);
+  background-image: linear-gradient(to bottom, #37d480, #2b76b8);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
 
+.callBtn:hover {
+  background: darkcyan;
+  text-decoration: none;
+}
