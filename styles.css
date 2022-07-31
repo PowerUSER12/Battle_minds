@@ -147,11 +147,24 @@ h1 {
 }
 .secondContainer {
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  color:darkred;
+  background-color: #eaf6f6;
+  
 }
+.secondText{
+  align-self: center;
+
+}
+
 
 .secondText h2 {
   font-size: 36px;
   font-weight: bolder;
+  margin:0;
+  
+  
 }
 .secondImgs img {
   height: 300px;
@@ -168,4 +181,39 @@ h1 {
   justify-content: space-around;
   padding: 15px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
+.imgOne{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+  letter-spacing: 0.1;
+  font-weight:bold;
+}
+.imgTwo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+  letter-spacing: 0.1;
+  font-weight:bold;
+}
+.imgThree{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+  letter-spacing: 0.1;
+  font-weight:bold;
+}
+.imgFour{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+  letter-spacing: 0.1;
+  font-weight:bold;
+}
+
+
