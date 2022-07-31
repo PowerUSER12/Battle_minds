@@ -19,7 +19,6 @@ h1 {
 .hero {
   background-image: url(images/polina-kuzovkova-lpWypNUavIk-unsplash.jpg);
   padding-bottom: 200px;
-  
 }
 .heroContainer {
   display: flex;
@@ -33,6 +32,7 @@ h1 {
   color: white;
   border-radius: 1.5em;
 }
+
 .heroImg img {
   height: 350px;
   width: 600px;
@@ -46,7 +46,6 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  
 }
 .herobox p {
   font-weight: 400;
@@ -145,4 +144,28 @@ h1 {
 .btn:hover {
   background: darkcyan;
   text-decoration: none;
+}
+.secondContainer {
+  padding: 50px;
+}
+
+.secondText h2 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.secondImgs img {
+  height: 300px;
+  width: 400px;
+  border: black solid 4px;
+  border-radius: 1.5em;
+}
+.secondImgs img:hover {
+  opacity: 0.3;
+  border-color: aqua;
+}
+.secondImgs {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin-top: 50px;
 }
