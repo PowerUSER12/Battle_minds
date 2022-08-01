@@ -230,14 +230,16 @@ h1 {
 .callAction {
   display: flex;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 30px;
   background-color: rgba(0, 0, 0, 0.7);
-  width: 50%;
+  width: 60%;
+  border-radius: 1.5em;
 }
 .callAction p {
   font-size: 22px;
   margin: 0;
   color: white;
+  
 }
 .first {
   font-weight: bold;
@@ -247,8 +249,8 @@ h1 {
   display: flex;
   justify-content: center;
 
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .callBtn{
   background: darkred;
@@ -263,7 +265,7 @@ h1 {
   font-family: Courier New;
   color: #ffffff;
   font-size: 25px;
-  padding: 9px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
